@@ -66,3 +66,29 @@ body {
 .item-link a:hover, a:active {
     background-color: #eaeaea;
 }
+
+.footer-twitter {
+   display: block;
+   margin-top: 70px;
+   margin-bottom: 20px;
+   padding: 0px;
+}
+
+.footer-twitter img {
+   width: 19px;
+   height: 19px;
+   vertical-align: text-top;
+}
+
+.footer-twitter span {
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+.footer-twitter a:link, a:visited  {
+    text-decoration: none;
+}
+
+.footer-twitter a:hover {
+    opacity: 0.8;
+}
