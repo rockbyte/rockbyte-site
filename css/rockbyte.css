@@ -26,8 +26,8 @@ body {
 }
 
 .item-textbox {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .item-title {
@@ -44,7 +44,7 @@ body {
 
 .item-link {
     margin-top: 25px;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .item-link a{
