@@ -82,11 +82,12 @@ body {
 
 .footer-twitter span {
   font-size: 1em;
-  margin-left: 10px;
+  margin-left: 8px;
 }
 
 .footer-twitter a:link, a:visited  {
     text-decoration: none;
+    color: #333333;
 }
 
 .footer-twitter a:hover {
