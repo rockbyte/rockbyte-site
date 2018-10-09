@@ -21,6 +21,8 @@
 	<link rel="stylesheet" href="css/1140.css" type="text/css" media="screen" />
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="third-party/uikit/css/uikit.min.css"/>
     <link rel="stylesheet" href="css/main.css">
@@ -44,7 +46,7 @@
 
     <nav class="uk-navbar-container uk-navbar-transparent uk-padding-large" style="padding-top: 0px; padding-bottom: 0px" uk-navbar>
         <div class="uk-navbar-left">
-            <img src="img/logo1_horizontal-nav.png" alt="RockByte Software"/>
+            <img src="img/logo1_horizontal-nav.png" alt="RockByte Software Logo" style="margin-left: 15px"/>
         </div>
 
 
@@ -64,22 +66,57 @@
         </div>
     </nav>
 
-    <div class="uk-text-center uk-padding-large">
-        <img class="uk-container-center" src="img/sb-logo-rendered-rounded-corners.png" alt="RockByte Software" />
-        <div class="item-textbox">
-            <!--<p class="item-title">Survival Ball</p>-->
-            <p class="item-description uk-align-center" style="margin-top: 32px">
-            Single or Local Co-Op PC game with six distinct stages developing a simple premise: As the decaying world challenges you, don't fall!
-        </p>
-            <p class="item-link">
-                <a href="https://survivalball.com/">Official Web Site</a>
-                <a href="https://store.steampowered.com/app/918690/Survival_Ball/">Steam</a>
-                </p>
+    <!--<div class="uk-text-center uk-padding-large" style="padding-top: 15px">-->
+        <!--<a href="https://survivalball.com/">-->
+            <!--<img class="uk-container-center" src="img/sb-logo-rendered-rounded-corners.png" alt="RockByte Software" />-->
+        <!--</a>-->
+        <!--&lt;!&ndash;<div class="item-textbox">&ndash;&gt;-->
+        <!--<div>-->
+            <!--&lt;!&ndash;<p class="item-title">Survival Ball</p>&ndash;&gt;-->
+            <!--<p class="item-description uk-align-center uk-text-justify" style="margin-top: 32px; font-style: normal">-->
+            <!--Single or Local Co-Op PC game with six distinct stages developing a simple premise: As the decaying world challenges you, don't fall!-->
+        <!--</p>-->
+            <!--<p class="item-link">-->
+                <!--<a href="https://survivalball.com/">Official Web Site</a>-->
+                <!--<a href="https://store.steampowered.com/app/918690/Survival_Ball/">Steam</a>-->
+                <!--</p>-->
+        <!--</div>-->
+    <!--</div>-->
+
+
+    <div class="uk-flex-middle uk-padding-large" uk-grid style="flex:1; position: relative; padding-top: 30px">
+        <!--uk-height-match="target: #logo-video"-->
+
+        <div class="uk-width-3-4@m" id="logo-video" >
+            <a href="https://survivalball.com/">
+                <img class="uk-container-center"
+                     src="img/sb-logo-rendered-rounded-corners.png"
+                     alt="RockByte Software"
+                     style="filter: drop-shadow(5px 5px 4px #00000022);"/>
+            </a>
         </div>
+
+        <div class="uk-width-1-4@m">
+            <div id="container-features-small-description-status">
+                <!--<div class="item-textbox">-->
+                <div>
+                    <!--<p class="item-title">Survival Ball</p>-->
+                    <p class="item-description item-description-whole-page" style="margin-top: 1px; font-style: normal">
+                        Single or Local Co-Op PC game with six distinct stages developing a simple premise: As the decaying world challenges you, don't fall!
+                    </p>
+                    <p class="item-link item-link-whole-page">
+                        <a href="https://survivalball.com/" style="margin-left: 0px">Official Web Site</a>
+                        <a href="https://store.steampowered.com/app/918690/Survival_Ball/" style="margin-right: 0px">Steam</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
 
-    <div class="uk-text-center uk-margin-large-left uk-margin-large-right uk-margin-large-top">
+    <div class="uk-text-center uk-margin-large-left uk-margin-large-right uk-margin-medium-top uk-margin-medium-bottom">
         <h1><b>Mobile / Web</b></h1>
     </div>
 

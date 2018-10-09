@@ -40,12 +40,36 @@ body {
     margin-top: 10px;
     text-align: center;
     font-style: italic;
-    max-width: 400px;
+    max-width: 250px;
 }
+
+.item-description-whole-page {
+    text-align: justify;
+    margin-left:auto;margin-right:auto
+}
+
+.item-link-whole-page {
+    text-align:center!important
+}
+
+@media (min-width:960px) {
+    .item-description-whole-page {
+        text-align: left;
+        margin-left:0px;
+        margin-right:auto
+    }
+
+    .item-link-whole-page {
+        text-align:left!important
+    }
+}
+
+
 
 .item-link {
     margin-top: 35px;
     font-size: 0.9em;
+    /*filter: drop-shadow(4px 4px 6px #00000008);*/
 }
 
 .item-link a{
