@@ -45,7 +45,8 @@ body {
 
 .item-description-whole-page {
     text-align: justify;
-    margin-left:auto;margin-right:auto
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .item-link-whole-page {
@@ -55,8 +56,8 @@ body {
 @media (min-width:960px) {
     .item-description-whole-page {
         text-align: left;
-        margin-left:0px;
-        margin-right:auto
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .item-link-whole-page {
